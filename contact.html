@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <h1>contact</h1>
+    <h1>contact.</h1>
 
-    <nav style="font-size: large; font-weight: bolder;"> <i>navigation</i>
+    <nav style="font-size: large; font-weight: bolder;"> <i>navigation.</i>
         <ul style="display: flex; flex-direction: row; gap: 20px; padding-left: 0;">
             <a href="index.html">home</a>
             <a href="about.html">about</a>
@@ -17,5 +17,28 @@
             <a href="gallery.html">gallery</a>
         </ul>
     </nav>
+
+    <fieldset style="width: fit-content;" >
+        <form>
+            <label for="name">name</label>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <br>
+            <label for="message">message:</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+            <br>
+            <br>
+            <label for="tick">are you a cat?</label>
+            <input type="checkbox" name="tick" id="tick">
+            <br>
+            <br>
+            <input type="submit" value="send">
+        </form>
+    </fieldset>
+
 </body>
 </html>

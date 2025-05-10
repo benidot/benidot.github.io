@@ -3,15 +3,20 @@
     src: url(../fonts/CothamSans.otf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap');
+
 body {
-    background-image: url(../img/bg.png);
+    /* background-image: url(../img/bg.png); */
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    padding-left: 20px;
 }
 
 p, h1, h2, h3, h4, nav, li, ul, label, pre, form, fieldset, a, header, footer {
     color: white;
-    font-family: cothamSans, Arial, Helvetica, sans-serif;
+    font-family: "Radio Canada", Arial, Helvetica, sans-serif;
 }
 
 #fullscreen {
@@ -26,10 +31,10 @@ a {
     text-decoration: none;
 }
 
-h4 {
+.gallerytext {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 0px;
     margin-bottom: 10px;
-    font-size: 50px;
+    font-size: xx-large;
 }
