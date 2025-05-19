@@ -46,6 +46,7 @@ a {
     margin-bottom: 0px;
     font-size: xx-large;
     font-weight: bold;
+    text-shadow: #fff 3px 3px 10px;
 }
 
 .albumartist {
@@ -56,4 +57,17 @@ a {
     margin-top: 0px;
     font-size: large;
     font-weight: lighter;
+    text-shadow: #fff 3px 3px 10px;
+}
+
+.albumcover {
+    box-shadow: #fff 5px 5px 10px;
+    border: 2px solid #fff;
+    border-radius: 5px; 
+}
+
+footer {
+    margin-top:100px;
+    position-anchor: bottom;
+    text-align: center;
 }
