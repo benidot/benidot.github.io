@@ -11,7 +11,15 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding-left: 20px;
+}
+
+main {
+    padding-left: 20px;;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
 }
 
 p, h1, h2, h3, h4, nav, li, ul, label, pre, form, fieldset, a, header, footer {
@@ -67,7 +75,29 @@ a {
 }
 
 footer {
-    margin-top:100px;
-    position-anchor: bottom;
-    text-align: center;
+    padding: 1rem;
+    text-align:center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.definer {
+
+}
+
+.definee {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: x-large;
+    font-weight: bold;
+    text-shadow: #fff 3px 3px 10px;
 }
