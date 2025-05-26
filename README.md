@@ -6,5 +6,5 @@
 - use semantic tags
 - css in separate css folder
 - images in a folder called img
-- use at least one custom font (google fonts etc) [hell no im not using google anything if i dont have to]
+- use at least one custom font (google fonts etc) [hell no im not using google anything if i dont have to] {i did :(}
 - use ur creativity
