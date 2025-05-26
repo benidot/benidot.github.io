@@ -28,11 +28,12 @@ p, h1, h2, h3, h4, nav, li, ul, label, pre, form, fieldset, a, header, footer {
 }
 
 #fullscreen {
-    width: 40%;
+    width: 150px;
     align-content: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 25px;
+    padding: 0px;
 }
 
 a {
@@ -49,7 +50,7 @@ a {
 
 .albumtitle {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 0px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     font-size: xx-large;
@@ -61,7 +62,7 @@ a {
     text-align: center;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-top: 0px;
     font-size: large;
     font-weight: lighter;
@@ -76,6 +77,7 @@ a {
 
 footer {
     padding: 1rem;
+    padding-top: 3rem;
     text-align:center;
 }
 
@@ -91,13 +93,30 @@ main {
 
 .definer {
     padding-left: 15px;
+    padding-top:7px;
+    margin: 0;
 }
 
 .definee {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     font-size: x-large;
     font-weight: bold;
     text-shadow: #fff 3px 3px 10px;
+}
+
+.albumitem {
+    display: flex;
+    flex-direction: row;
+    align-items:last baseline;
+    padding-top: 30px;
+}
+
+.albuminfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px;
 }
