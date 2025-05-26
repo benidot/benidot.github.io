@@ -27,6 +27,11 @@ p, h1, h2, h3, h4, nav, li, ul, label, pre, form, fieldset, a, header, footer {
     font-family: "Radio Canada", Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
 #fullscreen {
     width: 150px;
     align-content: center;
@@ -55,7 +60,7 @@ a {
     margin-bottom: 0px;
     font-size: xx-large;
     font-weight: bold;
-    text-shadow: #fff 3px 3px 10px;
+    text-shadow: #ffffff00 3px 3px 10px;
 }
 
 .albumartist {
@@ -66,12 +71,12 @@ a {
     margin-top: 0px;
     font-size: large;
     font-weight: lighter;
-    text-shadow: #fff 3px 3px 10px;
+    text-shadow: #ffffff00 3px 3px 10px;
 }
 
 .albumcover {
-    box-shadow: #fff 5px 5px 10px;
-    border: 2px solid #fff;
+    box-shadow: #ffffff00 5px 5px 10px;
+    border: 2px solid #ffffffff;
     border-radius: 5px; 
 }
 
@@ -103,7 +108,7 @@ main {
     margin-bottom: 0px;
     font-size: x-large;
     font-weight: bold;
-    text-shadow: #fff 3px 3px 10px;
+    text-shadow: #ffffff00 3px 3px 10px;
 }
 
 .albumitem {
@@ -119,4 +124,14 @@ main {
     align-items: flex-start;
     padding: 0px;
     margin: 0px;
+}
+
+.no-decor {
+    text-decoration: none;
+    list-style: none;
+}
+
+.tag {
+  font-size: 0.8em; /* smaller text */
+  opacity: 0.6;      /* less opaque */
 }
