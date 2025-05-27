@@ -13,6 +13,10 @@ body {
     background-attachment: fixed;
 }
 
+* {
+    cursor: default;
+}
+
 main {
     padding-left: 20px;;
 }
@@ -32,6 +36,10 @@ h1 {
     font-weight: bolder;
 }
 
+nav {
+    padding-bottom: 10px;
+}
+
 #fullscreen {
     width: 150px;
     align-content: center;
@@ -43,6 +51,13 @@ h1 {
 
 a {
     text-decoration: none;
+}
+
+.aboutimg {
+    width: 200px;
+    box-shadow: #ffffff00 5px 5px 10px;
+    border: 2px solid #ffffffff;
+    border-radius: 250px;
 }
 
 .gallerytext {
@@ -129,6 +144,7 @@ main {
 .no-decor {
     text-decoration: none;
     list-style: none;
+    padding-left: 15px;;
 }
 
 .tag {
