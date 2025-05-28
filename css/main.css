@@ -55,9 +55,11 @@ a {
 
 .aboutimg {
     width: 200px;
+    height: 200px;
     box-shadow: #ffffff00 5px 5px 10px;
     border: 2px solid #ffffffff;
     border-radius: 250px;
+    object-fit: cover;
 }
 
 .gallerytext {
