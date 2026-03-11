@@ -1,3 +1,3 @@
-# Contact
+#### blog
 
-this is a contact page
+[Blog test](blog/26.03.11a.md)
