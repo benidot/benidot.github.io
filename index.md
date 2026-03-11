@@ -2,7 +2,7 @@
 
 - [home]()
 - [about](./about.md)
-- [contact](./contact.md)
+- [blog](./blog.md) 
 - [portfolio](./portfolio.md)
 
 #### Home
