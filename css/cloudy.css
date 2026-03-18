@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Boldonse&family=Manrope:wght@200..800&family=Modak&family=Rubik+Vinyl&display=swap');
+
+:root {
+
+    --header: #abc4ffff;
+    --text: #f8f9faff;
+
+}
+
+main {
+    background: #B6CCFEFF;
+    background: linear-gradient(180deg, rgba(182, 204, 254, 1) 0%, rgba(182, 204, 254, 0.418) 100%);
+}
+

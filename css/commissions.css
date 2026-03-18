@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Boldonse&family=Manrope:wght@200..800&family=Modak&family=Rubik+Vinyl&display=swap');
+
+:root {
+    
+    --header: #B8EAF7;
+    --text: #212529ff;
+
+}
+
+body {
+    background-color: var(--header);
+    background-image: url("/img/blue.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    background: linear-gradient(180deg, rgba(248, 249, 250, 0.5) 0%, rgba(248, 249, 250, 0) 100%);
+}

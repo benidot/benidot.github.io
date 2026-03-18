@@ -1,0 +1,51 @@
+* {
+    color: var(--text);
+    padding: 0;
+    margin: 0;
+    font-family: var(--font);
+    font-size: 1.2rem;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4 {
+    color: var(--highlight);
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+
+header {
+    background-color: var(--header);
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+main {
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    transition:
+    transform 0.3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline dotted;
+    transform: scale(1.05);
+}

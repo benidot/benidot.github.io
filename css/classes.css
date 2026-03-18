@@ -1,0 +1,45 @@
+.metal {
+    font-family: var(--metal);
+}
+
+.bold {
+    font-family: var(--bold);
+}
+
+.skate {
+    font-family: var(--skate);
+    font-weight: 1000;
+    rotate: -5deg;
+}
+
+.round {
+    font-family: var(--round);
+}
+
+.headL {
+    display: flex;
+    gap: 0.2rem;
+}
+
+.headR {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.hoverFloat {
+  animation: hoverFloat 2s ease-in-out infinite;
+}
+
+@keyframes hoverFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+.cloudsW {
+    background-image: url("/img/clouds.jpg");
+    background-size: cover;
+}

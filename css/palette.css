@@ -1,0 +1,22 @@
+:root {
+
+    --alice-blue: #edf2fbff;
+    --lavender: #e2eafcff;
+    --lavender-2: #d7e3fcff;
+    --periwinkle: #ccdbfdff;
+    --periwinkle-2: #c1d3feff;
+    --periwinkle-3: #b6ccfeff;
+    --baby-blue-ice: #abc4ffff;
+    --header: #abc4ffff;
+
+    --header: #f8f9faff;
+    --platinum: #e9ecefff;
+    --alabaster-grey: #dee2e6ff;
+    --pale-slate: #ced4daff;
+    --pale-slate-2: #adb5bdff;
+    --slate-grey: #6c757dff;
+    --iron-grey: #495057ff;
+    --gunmetal: #343a40ff;
+    --text: #212529ff;
+
+}
